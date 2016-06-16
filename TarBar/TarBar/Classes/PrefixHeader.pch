@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  TarBar
+//
+//  Created by Gavin on 16/6/16.
+//  Copyright © 2016年 gavin. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "MFoundation.h"
+
+#define S_W CGRectGetWidth([UIScreen mainScreen].bounds)
+#define S_H CGRectGetHeight([UIScreen mainScreen].bounds)
+
+#define BOUNDS [UIScreen mainScreen].bounds
+
+#define BUTTON_W S_W/3
+
+#define L_W S_W*0.75
+//选中button的背景颜色
+#define BUTTON_BACK_COLOR  [UIColor colorWithRed:115/225.0 green:150/225.0 blue:195/255.0 alpha:1]
+#define TABBAR_BACK_COLOR  [UIColor colorWithRed:178/225.0 green:194/225.0 blue:222/255.0 alpha:1]
+
+#endif /* PrefixHeader_pch */
